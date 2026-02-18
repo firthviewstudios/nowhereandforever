@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Intro","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"A_elim","characterIndex":0,"characterName":"A_elimWalk","classId":11,"equips":[1,27,46,2,0],"faceIndex":0,"faceName":"A_elim","traits":[],"initialLevel":1,"maxLevel":99,"name":"Elim","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"A_odan","characterIndex":0,"characterName":"A_odanWalk","classId":11,"equips":[1,27,46,2,0],"faceIndex":0,"faceName":"A_odan","traits":[],"initialLevel":1,"maxLevel":99,"name":"Odan","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"A_tali","characterIndex":0,"characterName":"A_taliWalk","classId":12,"equips":[63,39,66,2,0],"faceIndex":0,"faceName":"A_tali","traits":[],"initialLevel":1,"maxLevel":99,"name":"Tali","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"A_Feylora","characterIndex":5,"characterName":"A_Feylora","classId":14,"equips":[93,106,50,10,81],"faceIndex":0,"faceName":"A_Feylora","traits":[],"initialLevel":11,"maxLevel":99,"name":"Feylora","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"A_alex","characterIndex":0,"characterName":"A_alexWalk","classId":15,"equips":[178,424,412,434,81],"faceIndex":0,"faceName":"A_alex","traits":[],"initialLevel":18,"maxLevel":99,"name":"Alex","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"A_ziyalunmask","characterIndex":0,"characterName":"A_ziyalUnmasked","classId":11,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"A_Ziyal","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ziyal","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":6,"characterName":"Evil","classId":1,"equips":[0,0,0,0,0],"faceIndex":6,"faceName":"Evil","traits":[],"initialLevel":1,"maxLevel":99,"name":"Sargon","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"SV_F-chara Dragon-knight1","characterIndex":0,"characterName":"$F-chara Dragon-knight","classId":13,"equips":[165,257,388,365,74],"faceIndex":0,"faceName":"F-chara Dragon-knight","traits":[{"code":11,"dataId":6,"value":1.25},{"code":11,"dataId":7,"value":0.5}],"initialLevel":18,"maxLevel":99,"name":"Vaeraxis","nickname":"","note":"","profile":""},
+{"id":11,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":12,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":13,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":14,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":15,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":16,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":17,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":18,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":19,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":20,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]

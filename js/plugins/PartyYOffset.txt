@@ -1,0 +1,39 @@
+/*:
+ * @target MZ
+ * @plugindesc Allows setting a vertical Y offset for party sprites before battle starts. Use plugin command to set offset.
+ * @command setYOffset
+ * @text Set Party Y Offset
+ * @desc Sets the vertical Y offset for the party sprites before battle.
+ * @arg offset
+ * @type number
+ * @default 0
+ * @min -200
+ * @max 200
+ */
+
+(() => {
+  const pluginName = "PartyYOffset";
+
+  let partyYOffset = 0;
+
+  PluginManager.registerCommand(pluginName, "setYOffset", args => {
+    partyYOffset = Number(args.offset) || 0;
+  });
+
+  // Hook into battle spriteset creation
+  const _Spriteset_Battle_createActors = Spriteset_Battle.prototype.createActors;
+  Spriteset_Battle.prototype.createActors = function () {
+    _Spriteset_Battle_createActors.call(this);
+    // Apply offset to all actor sprites
+    this._actorSprites.forEach(sprite => {
+      sprite.y += partyYOffset;
+    });
+  };
+
+  // Reset offset after battle ends
+  const _BattleManager_endBattle = BattleManager.endBattle;
+  BattleManager.endBattle = function (result) {
+    partyYOffset = 0;
+    _BattleManager_endBattle.call(this, result);
+  };
+})();

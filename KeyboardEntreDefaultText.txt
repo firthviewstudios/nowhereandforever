@@ -1,0 +1,9 @@
+Enter the answer above.
+Press \c[5]ENTER\c[0] when you're done.
+
+-or-
+
+Press \c[5]arrow keys\c[0]/\c[5]TAB\c[0] to switch
+to manual character entry.
+
+Press \c[5]ESC\c[0]/\c[5]TAB\c[0] to use to keyboard.
