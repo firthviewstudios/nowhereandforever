@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
         <link rel="icon" href="icon/icon.png" type="image/png">
         <link rel="apple-touch-icon" href="icon/icon.png">
         <link rel="stylesheet" type="text/css" href="css/game.css">
@@ -24,9 +24,52 @@
     margin: 0 auto;
   }
 </style>
-</head>
+<!-- NAF_WEB_VIEWPORT_PATCH_v3 -->
+<style>
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    background: black !important;
+  }
+
+  /* Canvas is created by main.js, so target any canvas (and the usual id) */
+  canvas, #gameCanvas {
+    display: block !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0 !important;
+  }
+</style>
+    </head>
     <body style="background-color: black">
         <script type="text/javascript" src="js/main.js"></script>
+        <script>
+(function () {
+  function apply() {
+    const c = document.getElementById("gameCanvas") || document.querySelector("canvas");
+    if (!c) return false;
+
+    // CSS already sets 100vw/100vh, but re-apply in case the engine resizes later
+    c.style.width = "100vw";
+    c.style.height = "100vh";
+    return true;
+  }
+
+  // Wait until the canvas exists
+  let tries = 0;
+  const timer = setInterval(() => {
+    tries++;
+    const ok = apply();
+    if (ok || tries > 100) clearInterval(timer);
+  }, 50);
+
+  window.addEventListener("resize", apply);
+  window.addEventListener("orientationchange", apply);
+})();
+</script>
     <script>
 (function () {
   function resizeCanvas() {
