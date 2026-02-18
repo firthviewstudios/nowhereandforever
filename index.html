@@ -8,7 +8,7 @@
         <link rel="icon" href="icon/icon.png" type="image/png">
         <link rel="apple-touch-icon" href="icon/icon.png">
         <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>Nowhere and Forever</title><!-- NAF_WEB_VIEWPORT_PATCH_v6 -->
+        <title>Nowhere and Forever</title><!-- NAF_WEB_VIEWPORT_PATCH_v7 -->
 <style>
   html, body {
     margin: 0 !important;
@@ -19,7 +19,7 @@
     background: black !important;
   }
 
-  /* Ensure nothing blocks clicks */
+  /* Keep canvas interactive; do not set width/height here */
   canvas, #gameCanvas {
     display: block !important;
     touch-action: none !important;
@@ -30,28 +30,30 @@
         <script type="text/javascript" src="js/main.js"></script>
         <script>
 (function () {
-  function tryHook() {
+  function init() {
     const Graphics = window.Graphics;
-    if (!Graphics || typeof Graphics._onWindowResize !== "function") return false;
+    if (!Graphics) return false;
 
-    // Force an initial resize using engine logic (keeps input mapping correct)
-    Graphics._onWindowResize();
+    // Engine-native stretch (keeps mouse/touch mapping correct)
+    Graphics._stretchEnabled = true;
 
-    // Keep using engine resize logic on changes
-    window.addEventListener("resize", () => Graphics._onWindowResize());
-    window.addEventListener("orientationchange", () => Graphics._onWindowResize());
-
-    // Some mobile browsers change viewport after a moment (address bar)
-    setTimeout(() => Graphics._onWindowResize(), 250);
-    setTimeout(() => Graphics._onWindowResize(), 1000);
-
-    return true;
+    // Trigger the engineâ€™s resize pipeline once it exists
+    if (typeof Graphics._onWindowResize === "function") {
+      Graphics._onWindowResize();
+      window.addEventListener("resize", () => Graphics._onWindowResize());
+      window.addEventListener("orientationchange", () => Graphics._onWindowResize());
+      // Mobile address-bar settling
+      setTimeout(() => Graphics._onWindowResize(), 250);
+      setTimeout(() => Graphics._onWindowResize(), 1000);
+      return true;
+    }
+    return false;
   }
 
   let tries = 0;
   const timer = setInterval(() => {
     tries++;
-    if (tryHook() || tries > 200) clearInterval(timer);
+    if (init() || tries > 200) clearInterval(timer);
   }, 50);
 })();
 </script></body>
