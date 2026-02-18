@@ -8,7 +8,7 @@
         <link rel="icon" href="icon/icon.png" type="image/png">
         <link rel="apple-touch-icon" href="icon/icon.png">
         <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>Nowhere and Forever</title><!-- NAF_WEB_VIEWPORT_PATCH_v4 -->
+        <title>Nowhere and Forever</title><!-- NAF_WEB_VIEWPORT_PATCH_v5 -->
 <style>
   html, body {
     margin: 0 !important;
@@ -18,12 +18,8 @@
     overflow: hidden !important;
     background: black !important;
   }
-
-  /* Canvas is created by main.js, so target any canvas (and the usual id) */
   canvas, #gameCanvas {
     display: block !important;
-    width: 100vw !important;
-    height: 100vh !important;
     margin: 0 !important;
   }
 </style>
@@ -32,26 +28,44 @@
         <script type="text/javascript" src="js/main.js"></script>
         <script>
 (function () {
-  function apply() {
-    const c = document.getElementById("gameCanvas") || document.querySelector("canvas");
-    if (!c) return false;
+  function coverScale() {
+    const Graphics = window.Graphics;
+    const canvas = document.getElementById("gameCanvas") || document.querySelector("canvas");
+    if (!Graphics || !canvas) return false;
 
-    // CSS already sets 100vw/100vh, but re-apply in case the engine resizes later
-    c.style.width = "100vw";
-    c.style.height = "100vh";
+    const gw = Graphics.width;
+    const gh = Graphics.height;
+    const ww = window.innerWidth;
+    const wh = window.innerHeight;
+
+    // Uniform "cover" scale (fills screen, may crop)
+    const scale = Math.max(ww / gw, wh / gh);
+
+    // Tell MZ the real scale so mouse/touch mapping stays correct
+    Graphics._realScale = scale;
+
+    // Apply visual size
+    canvas.style.width  = (gw * scale) + "px";
+    canvas.style.height = (gh * scale) + "px";
+
+    // Center it (negative margins if it overflows = crop)
+    canvas.style.position = "absolute";
+    canvas.style.left = "50%";
+    canvas.style.top  = "50%";
+    canvas.style.transform = "translate(-50%, -50%)";
+
     return true;
   }
 
-  // Wait until the canvas exists
+  // Wait until engine + canvas exist, then keep it stable
   let tries = 0;
   const timer = setInterval(() => {
     tries++;
-    const ok = apply();
-    if (ok || tries > 100) clearInterval(timer);
+    if (coverScale() || tries > 200) clearInterval(timer);
   }, 50);
 
-  window.addEventListener("resize", apply);
-  window.addEventListener("orientationchange", apply);
+  window.addEventListener("resize", coverScale);
+  window.addEventListener("orientationchange", coverScale);
 })();
 </script></body>
 </html>
