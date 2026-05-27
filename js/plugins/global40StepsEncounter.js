@@ -1,5 +1,5 @@
 (() => {
-  const BASE_STEPS = 95;
+  const BASE_STEPS = 110;
   const STEP_VARIANCE = 25;
   const DISABLE_SWITCH_ID = 2;
 

@@ -1,0 +1,42 @@
+/*:
+ * @target MZ
+ * @plugindesc Breaks the boss's Charging state when taking enough damage.
+ */
+
+(() => {
+
+  const BOSS_ID = 141;      // Brass Automaton
+  const CHARGING_STATE = 47; // <-- Replace with your Charging state ID
+  const THRESHOLD = 0.01;    // 1% of max HP (change as needed)
+
+  const alias = Game_Action.prototype.executeDamage;
+  Game_Action.prototype.executeDamage = function(target, value) {
+    alias.call(this, target, value);
+
+    // Only apply in battle
+    if (!$gameParty.inBattle()) return;
+
+    // Only apply to the boss
+    if (!target.isEnemy() || target.enemyId() !== BOSS_ID) return;
+
+    // Must have the Charging state
+    if (!target.isStateAffected(CHARGING_STATE)) return;
+
+    // Damage must be positive
+    const dmg = Math.max(0, value);
+    const max = target.mhp;
+
+    if (dmg >= max * THRESHOLD) {
+
+      // Remove the state
+      target.removeState(CHARGING_STATE);
+
+      // Show message in battle log
+      BattleManager._logWindow.push(
+        "addText",
+        `${target.name()}'s concentration was broken!`
+      );
+    }
+  };
+
+})();

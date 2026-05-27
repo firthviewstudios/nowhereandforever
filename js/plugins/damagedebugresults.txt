@@ -1,0 +1,312 @@
+global40StepsEncounter.js:9 [GlobalEncounter] Plugin loaded. First threshold: 94 steps.
+ElementAttacksV3.js:117 ✅ Brass Automaton gains state: CoverAlly
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Archery, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Desert's Embrace, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Aeromancy, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+DevTools failed to load SourceMap: Could not load content for chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/libs/pixi.js.map: System error: net::ERR_FILE_NOT_FOUND
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Brass Automaton
+automatonDamageDebug.js:22 Before HP: 2000
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: ["48:CoverAlly"]
+ElementAttacksV3.js:67 --- Damage Debug ---
+ElementAttacksV3.js:68 Action: Attack
+ElementAttacksV3.js:69 User: Feylora, Target: Brass Automaton
+ElementAttacksV3.js:74 Base Skill Element: [None] | Target Vulnerability: 1 | Damage after multiplier: 198
+ElementAttacksV3.js:77 Extra Elements Applied:
+ElementAttacksV3.js:80   - Physical (Source: Trait: Hunter's Bow) | Target Vulnerability: 1
+ElementAttacksV3.js:95 Total extra elemental damage added: 0
+ElementAttacksV3.js:96 ✅ Total expected damage (base + extras): 198
+ElementAttacksV3.js:97 --------------------
+automatonDamageDebug.js:31 Damage dealt: 198
+automatonDamageDebug.js:32 States AFTER: ["48:CoverAlly"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Spearcraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Runecraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Vaeraxis
+automatonDamageDebug.js:22 Before HP: 1643
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Vaeraxis gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Battle Tactics, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Swordsmanship, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Elim
+automatonDamageDebug.js:22 Before HP: 592
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Elim gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Brews of Ruin, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Brews of Affliction, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Brews of Restoration, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Tali
+automatonDamageDebug.js:22 Before HP: 297
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Tali gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Archery, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Desert's Embrace, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Aeromancy, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Feylora
+automatonDamageDebug.js:22 Before HP: 1080
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Feylora gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Spearcraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Runecraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Spearcraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Runecraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Vaeraxis
+automatonDamageDebug.js:22 Before HP: 1643
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Vaeraxis gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Brass Automaton
+automatonDamageDebug.js:22 Before HP: 1802
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: ["48:CoverAlly"]
+ElementAttacksV3.js:117 ✅ Brass Automaton gains state: Charging
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: (2) ["47:Charging", "48:CoverAlly"]
+automatonDamageDebug.js:35 Still has Charging: true
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Elim
+automatonDamageDebug.js:22 Before HP: 592
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: ["2:Guard"]
+ElementAttacksV3.js:67 --- Damage Debug ---
+ElementAttacksV3.js:68 Action: Attack
+ElementAttacksV3.js:69 User: Weyoun, Target: Elim
+ElementAttacksV3.js:74 Base Skill Element: [None] | Target Vulnerability: 1 | Damage after multiplier: 0
+ElementAttacksV3.js:77 Extra Elements Applied:
+ElementAttacksV3.js:80   - Physical (Source: Trait: Weyoun) | Target Vulnerability: 1
+ElementAttacksV3.js:95 Total extra elemental damage added: 0
+ElementAttacksV3.js:96 ✅ Total expected damage (base + extras): 0
+ElementAttacksV3.js:97 --------------------
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Archery, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Desert's Embrace, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Aeromancy, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Brass Automaton
+automatonDamageDebug.js:22 Before HP: 1802
+automatonDamageDebug.js:23 Had Charging: true
+automatonDamageDebug.js:24 States BEFORE: (2) ["47:Charging", "48:CoverAlly"]
+ElementAttacksV3.js:67 --- Damage Debug ---
+ElementAttacksV3.js:68 Action: Attack
+ElementAttacksV3.js:69 User: Feylora, Target: Brass Automaton
+ElementAttacksV3.js:74 Base Skill Element: [None] | Target Vulnerability: 1 | Damage after multiplier: 218
+ElementAttacksV3.js:77 Extra Elements Applied:
+ElementAttacksV3.js:80   - Physical (Source: Trait: Hunter's Bow) | Target Vulnerability: 1
+ElementAttacksV3.js:95 Total extra elemental damage added: 0
+ElementAttacksV3.js:96 ✅ Total expected damage (base + extras): 218
+ElementAttacksV3.js:97 --------------------
+automatonDamageDebug.js:31 Damage dealt: 218
+automatonDamageDebug.js:32 States AFTER: ["48:CoverAlly"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:38 >>> Charging WAS removed.
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Spearcraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Runecraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Vaeraxis
+automatonDamageDebug.js:22 Before HP: 1643
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Vaeraxis gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Battle Tactics, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Swordsmanship, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Elim
+automatonDamageDebug.js:22 Before HP: 592
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Elim gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Brews of Ruin, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Brews of Affliction, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Brews of Restoration, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Tali
+automatonDamageDebug.js:22 Before HP: 297
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Tali gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Archery, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Desert's Embrace, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Aeromancy, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Feylora
+automatonDamageDebug.js:22 Before HP: 1080
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Feylora gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Spearcraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Runecraft, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Vaeraxis
+automatonDamageDebug.js:22 Before HP: 1643
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: []
+ElementAttacksV3.js:117 ✅ Vaeraxis gains state: Guard
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Brass Automaton
+automatonDamageDebug.js:22 Before HP: 1584
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: ["48:CoverAlly"]
+ElementAttacksV3.js:117 ✅ Brass Automaton gains state: Charging
+automatonDamageDebug.js:31 Damage dealt: 0
+automatonDamageDebug.js:32 States AFTER: (2) ["47:Charging", "48:CoverAlly"]
+automatonDamageDebug.js:35 Still has Charging: true
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Battle Tactics, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Swordsmanship, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Brass Automaton
+automatonDamageDebug.js:22 Before HP: 1584
+automatonDamageDebug.js:23 Had Charging: true
+automatonDamageDebug.js:24 States BEFORE: (2) ["47:Charging", "48:CoverAlly"]
+ElementAttacksV3.js:67 --- Damage Debug ---
+ElementAttacksV3.js:68 Action: Attack
+ElementAttacksV3.js:69 User: Elim, Target: Brass Automaton
+ElementAttacksV3.js:74 Base Skill Element: [None] | Target Vulnerability: 1 | Damage after multiplier: 86
+ElementAttacksV3.js:77 Extra Elements Applied:
+ElementAttacksV3.js:80   - Physical (Source: Trait: Short Sword) | Target Vulnerability: 1
+ElementAttacksV3.js:95 Total extra elemental damage added: 0
+ElementAttacksV3.js:96 ✅ Total expected damage (base + extras): 86
+ElementAttacksV3.js:97 --------------------
+automatonDamageDebug.js:31 Damage dealt: 86
+automatonDamageDebug.js:32 States AFTER: ["48:CoverAlly"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:38 >>> Charging WAS removed.
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+automatonDamageDebug.js:20 === DAMAGE DEBUG START ===
+automatonDamageDebug.js:21 Target: Tali
+automatonDamageDebug.js:22 Before HP: 297
+automatonDamageDebug.js:23 Had Charging: false
+automatonDamageDebug.js:24 States BEFORE: ["2:Guard"]
+ElementAttacksV3.js:67 --- Damage Debug ---
+ElementAttacksV3.js:68 Action: Attack
+ElementAttacksV3.js:69 User: Weyoun, Target: Tali
+ElementAttacksV3.js:74 Base Skill Element: [None] | Target Vulnerability: 1 | Damage after multiplier: 1
+ElementAttacksV3.js:77 Extra Elements Applied:
+ElementAttacksV3.js:80   - Physical (Source: Trait: Weyoun) | Target Vulnerability: 1
+ElementAttacksV3.js:95 Total extra elemental damage added: 0
+ElementAttacksV3.js:96 ✅ Total expected damage (base + extras): 1
+ElementAttacksV3.js:97 --------------------
+automatonDamageDebug.js:31 Damage dealt: 1
+automatonDamageDebug.js:32 States AFTER: ["2:Guard"]
+automatonDamageDebug.js:35 Still has Charging: false
+automatonDamageDebug.js:43 === DAMAGE DEBUG END ===
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Attack, symbol=attack, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Archery, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Desert's Embrace, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Aeromancy, symbol=skill, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Guard, symbol=guard, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Item, symbol=item, enabled=true
+VisuMZ_2_PartySystem_Debug.js:9 [VS PartySystem] addCommand: name=Escape, symbol=escape, enabled=true
